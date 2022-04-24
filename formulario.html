@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+    <style>    
+    img{
+    padding: 13px;
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+    object-fit: cover;
+}
+    </style>
+
+</head>
+<body>
+    <a href="index.html"><img src="img/A.png" alt="REGRESAR"></a>
+    <section class="forms-register">
+        <center><h4>INSCRIPCION DE DATOS PARA ADOPCION ANIMAL</h4></center><br>
+        <label for="nom">Nombre:</label>
+        <input class="controls" type="text" name="Nombre" id="nombre" placeholder="Ingrese su Nombre"><br><br>
+        <label for="ape1">Primer Apellido:</label>
+        <input class="controls" type="text" name="Apellido1" id="apellido1" placeholder="Ingrese su Primer Apellido"><br><br>
+        <label for="ape2">Segundo Apellido:</label>
+        <input class="controls" type="text" name="Apellido2" id="apellido2" placeholder="Ingrese su Segundo Apellido"><br><br>
+        <label for="tel">Telefono:</label>
+        <input class="controls" type="number" name="Telefono" id="telefono" placeholder="Ingrese su Numero Telefonico"><br><br>
+        <label for="email">Correo Electronico:</label>
+        <input class="controls" type="email" name="Correo Electronico" id="correo" placeholder="Ingrese su Correo Electronico"><br><br>
+        <label for="ed">Edad:</label>
+        <input class="controls" type="number" name="Edad" id="edad" placeholder="Ingrese su Edad"><br><br>
+        <label for="pro">Profesion:</label>
+        <input class="controls" type="text" name="Profesion" id="profesion" placeholder="Ingrese su Profesion"><br><br>
+        <center><h4><b>¿PORQUE DESEA ADOPTAR?</b></h4></center>
+        <label for="msg">Mensaje:</label>
+        <textarea name="msg" id="user-message" cols="30" rows="10"></textarea>
+        <div class="terms">
+        <input type="checkbox" name="terms">
+        <label for="terms"><a href="#">Estoy de acuerdo con los Terminos y Condiciones</a></label>
+    </div>
+        <input class="botons" type="submit" value="Enviar">
+    </section>
+    
+</body>
+</html>
